@@ -17,39 +17,26 @@ nav>div.container {
   margin: 0 auto;
   max-width: 1200px;
 }
-
 a {
   color: white;
   text-decoration: none;
 }
-
-.menu,
-.submenu {
-  list-style-type: none;
-}
-
 .logo {
   font-size: 20px;
   padding: 7.5px 10px 7.5px 0;
   cursor: pointer;
 }
-
 .item {
   padding: 10px;
   cursor: pointer;
 }
-
-a:hover {
-  color: #ccc;
-}
-
 .item.button {
   padding: 9px 5px;
 }
 
 .item:not(.button) a:hover,
 .item a:hover::after {
-  color: #ccc;
+  color: rgb(182, 12, 12);
 }
 
 /* Mobile menu */
@@ -88,10 +75,9 @@ a:hover {
 .active .item {
   display: block;
 }
-
 .button.secondary {
   /* divider between buttons and menu links */
-  border-bottom: 1px rgb(173, 80, 80) solid;
+  border-bottom: 1px rgb(130, 127, 127) solid;
 }
 
 /* Submenu up from mobile screens */
@@ -154,11 +140,9 @@ a:hover {
   }
 
   .button a {
-    background-image: linear-gradient(43deg,
-        #4158d0 0%,
-        #c850c0 46%,
-        #ffcc70 100%);
-    border: 1px rgb(0, 0, 0) solid;
+    background: green;
+    border: 0.9px rgb(177, 177, 177) solid;
+    border-radius: 12px;
   }
 
   .button.secondary {
@@ -166,16 +150,21 @@ a:hover {
   }
 
   .button.secondary a {
-    background: transparent;
+    background: darkred;
     border: 1px #0080ff solid;
   }
-
+  .button.secondary a:hover {
+    background: white;
+    color: darkred;
+    border: 1px #0080ff solid;
+  }
   .button a:hover {
     text-decoration: none;
   }
 
   .button:not(.secondary) a:hover {
-    background: rgb(7, 214, 62);
+    color: green;
+    background: white;
     border-color: rgb(21, 139, 0);
   }
 }

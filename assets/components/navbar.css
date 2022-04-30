@@ -17,19 +17,26 @@ nav>div.container {
   margin: 0 auto;
   max-width: 1200px;
 }
+
 a {
   color: white;
   text-decoration: none;
 }
+
 .logo {
-  font-size: 20px;
-  padding: 7.5px 10px 7.5px 0;
   cursor: pointer;
+  height: 70px;
 }
+
+nav>div>ul>li>a.logo {
+  padding: 0;
+}
+
 .item {
   padding: 10px;
   cursor: pointer;
 }
+
 .item.button {
   padding: 9px 5px;
 }
@@ -75,6 +82,7 @@ a {
 .active .item {
   display: block;
 }
+
 .button.secondary {
   /* divider between buttons and menu links */
   border-bottom: 1px rgb(130, 127, 127) solid;
@@ -153,11 +161,13 @@ a {
     background: darkred;
     border: 1px #0080ff solid;
   }
+
   .button.secondary a:hover {
     background: white;
     color: darkred;
     border: 1px #0080ff solid;
   }
+
   .button a:hover {
     text-decoration: none;
   }

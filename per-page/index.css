@@ -1,0 +1,14 @@
+div.top {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  padding: 10vh 10vw;
+}
+
+div.top>div.top-b {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}

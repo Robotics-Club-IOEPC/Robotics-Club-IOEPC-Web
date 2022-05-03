@@ -1,3 +1,7 @@
+@import url(./css/fullpage.css);
+@import url(./css/fullpage1.css);
+@import url(./css/fullpage2.css);
+
 div.top {
   display: flex;
   flex-flow: wrap;

@@ -13,11 +13,6 @@ nav {
   padding: 0 15px;
 }
 
-nav>div.container {
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
 a {
   color: white;
   text-decoration: none;

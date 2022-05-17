@@ -1,3 +1,4 @@
+@import url(./css/loader.css);
 @import url(./css/navbar.css);
 @import url(./css/footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
@@ -11,6 +12,7 @@
   box-sizing: border-box;
   font-family: 'Radio Canada', sans-serif;
   z-index: 1;
+  size: 14px;
 }
 
 body {
@@ -21,3 +23,4 @@ div.container {
   margin: 0 auto;
   max-width: 1200px;
 }
+

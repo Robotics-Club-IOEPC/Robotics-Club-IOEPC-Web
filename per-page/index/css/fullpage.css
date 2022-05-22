@@ -4,6 +4,7 @@ div.fullpage {
   justify-content: space-around;
   align-items: center;
   padding: 10vh 10vw;
+  min-height: 100vh;
 }
 
 .intro>h1{

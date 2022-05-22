@@ -1,4 +1,4 @@
-div.fullpage {
+div.part2 {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
@@ -7,10 +7,15 @@ div.fullpage {
   min-height: 100vh;
 }
 
-.intro>h1{
+.intro{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2rem;
   color: white;
+  max-width: 500px;
+}
+
+.intro>h1 {
+  margin: 20px;
+  font-size: 40px;
 }

@@ -1,4 +1,6 @@
 nav {
+  position: sticky;
+  position: -webkit-sticky;
   background: #0f0c29;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right,

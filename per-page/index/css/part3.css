@@ -1,13 +1,13 @@
-.fullpage2 {
+.part3 {
   min-height: 100vh;
   background-color: #1d1d1d;
   color: white;
   font-family: helvetica;
 }
-.fullpage2 .center-text {
+.part3 .center-text {
   display: flex;
   justify-content: center;
-  padding: 80px;
+  padding: 60px 60px 20px 60px;
 }
 
 .about {
@@ -148,7 +148,6 @@
 
 @media screen and (max-width: 767px) {
   .content {
-    padding-top: 300px;
     flex-direction: column;
   }
 }

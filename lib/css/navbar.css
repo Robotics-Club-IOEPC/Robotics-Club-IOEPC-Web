@@ -57,7 +57,9 @@ nav>div>ul>li>a.logo {
 }
 
 .menu li.subitem a {
-  padding: 15px;
+  min-width: 200px;
+  padding: 12px 16px;
+  
 }
 
 .toggle {

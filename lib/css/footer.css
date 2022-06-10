@@ -26,6 +26,12 @@ footer>div.row>div.col {
 
 footer a {
   color: inherit;
+  
+}
+.col a:hover{
+  background-color: white;
+  color: black;
+  
 }
 
 footer>div.row>div.col>img {

@@ -55,8 +55,8 @@
   }
 } 
 
-nav.junk {
-  position: static;
+nav {
+  position: sticky;
   height: 70px;
   z-index: 1;
 }

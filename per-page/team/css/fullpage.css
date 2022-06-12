@@ -1,3 +1,7 @@
+body > navbar > nav {
+  /* text-shadow: 5px 10px #000000;; */
+}
+
 .section-team {
 	font-family: "Poppins", sans-serif;
 	padding: 80px 0;
@@ -59,14 +63,14 @@
 	line-height: 60px;
 	text-align: center;
 	background: linear-gradient(to right, #016cec, #00b5f7);
-	color: #fff;
+	color: rgb(0, 0, 0);
 	border-radius: 50%;
 	font-size: 24px;
 }
 
 .section-team .single-person:hover .person-image .icon {
 	background: none;
-	background-color: #fff;
+	background-color: rgb(0, 0, 0);
 	color: #016cec;
 }
 
@@ -84,5 +88,5 @@
 
 .section-team .single-person:hover .full-name,
 .section-team .single-person:hover .speciality {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }

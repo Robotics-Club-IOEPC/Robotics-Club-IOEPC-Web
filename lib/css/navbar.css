@@ -1,17 +1,7 @@
 nav {
   position: sticky;
   position: -webkit-sticky;
-  background: #0f0c29;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,
-      #24243e,
-      #302b63,
-      #0f0c29);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,
-      #24243e,
-      #302b63,
-      #0f0c29);
+  background: black;
   padding: 0 15px;
 }
 
@@ -147,8 +137,8 @@ nav>div>ul>li>a.logo {
   }
 
   .button a {
-    background: green;
-    border: 0.9px rgb(177, 177, 177) solid;
+    background: #382e31;
+    /* border: 0.9px rgb(177, 177, 177) solid; */
     border-radius: 12px;
   }
 
@@ -157,8 +147,8 @@ nav>div>ul>li>a.logo {
   }
 
   .button.secondary a {
-    background: darkred;
-    border: 1px #0080ff solid;
+    background: #743d3d;
+    /* border: 1px #0080ff solid; */
   }
 
   .button.secondary a:hover {

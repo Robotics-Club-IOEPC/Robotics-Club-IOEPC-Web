@@ -1,14 +1,14 @@
 .part1 {
   min-height: 90vh;
-  background-color: #743d3d;
+  /* background-color: #743d3d; */
 }
 
-.part1>div.container {
+.part1>div.containered {
   position: relative;
   min-height: inherit;
 }
 
-.part1>div.container>.background {
+.part1>div.containered>.background {
   position: absolute;
   top: 0;
   display: flex;
@@ -22,7 +22,7 @@
   filter: blur(3px);
 }
 
-.part1>div.container>.foreground {
+.part1>div.containered>.foreground {
   position: absolute;
   top: 0;
   display: flex;
@@ -36,14 +36,14 @@
 
 .part1 h1 {
   font-size: 70px;
-  color: white;
+  color: black;
   text-align: center;
   text-shadow: none;
 
 }
 
 .part1 h2 {
-  color: white;
+  color: black;
   text-align: center;
 }
 

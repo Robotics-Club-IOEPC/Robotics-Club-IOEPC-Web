@@ -1,26 +1,33 @@
-body > navbar > nav {
-  /* text-shadow: 5px 10px #000000;; */
-}
-
 .section-team {
 	font-family: "Poppins", sans-serif;
 	padding: 80px 0;
+	background-color: black;
 }
-
+nav{
+	background-color: black;
+}
+.item{
+    color: white;
+}
+.item a{
+	color: white;
+}
 .section-team .header-section {
 	margin-bottom: 50px;
 }
+
 
 .section-team .header-section .small-title {
 	margin-bottom: 25px;
 	font-size: 16px;
 	font-weight: 500;
-	color: #3e64ff;
+	color: white;
 }
 
 .section-team .header-section .title {
 	font-weight: 700;
 	font-size: 45px;
+	color: white;
 }
 
 .section-team .single-person {
@@ -71,19 +78,20 @@ body > navbar > nav {
 .section-team .single-person:hover .person-image .icon {
 	background: none;
 	background-color: rgb(0, 0, 0);
-	color: #016cec;
+	color: white;
 }
 
 .section-team .single-person .person-info .full-name {
 	margin-bottom: 10px;
 	font-size: 28px;
 	font-weight: 700;
+	color: white;
 }
 
 .section-team .single-person .person-info .speciality {
 	text-transform: uppercase;
 	font-size: 14px;
-	color: #016cec;
+	color: white;
 }
 
 .section-team .single-person:hover .full-name,

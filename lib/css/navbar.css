@@ -58,7 +58,7 @@
 nav {
   position: sticky;
   height: 70px;
-  z-index: 1;
+  z-index: 999;
 }
 
 a {
@@ -95,6 +95,7 @@ nav>div>ul>li>a.logo {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
 }
 
 .menu li a {
@@ -276,5 +277,6 @@ nav>div>ul>li>a.logo {
   .container {
     width: 80vw;
     margin-left: 8vw;
+    
   }
 }

@@ -98,3 +98,7 @@ nav{
 .section-team .single-person:hover .speciality {
 	color: rgb(0, 0, 0);
 }
+.developers{
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,25 @@
+#main {
+  background: rgb(255, 255, 255);
+}
+
+#main .vid {
+  width: 100vw;
+  height: 50.625vw;
+  padding: 10px 5vw;
+}
+
+#main iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#main h1 {
+  text-align: left;
+  font-size: 48px;
+}
+
+#main .text {
+  margin: 0 auto;
+  padding: 5ch 10ch;
+  max-width: 100ch;
+}

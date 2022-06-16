@@ -1,0 +1,15 @@
+div#main {
+  background: #fff;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div.fifty {
+  min-width: 50%;
+  max-width: 550px;
+  margin: 0 auto;
+}
